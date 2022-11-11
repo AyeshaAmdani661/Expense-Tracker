@@ -16,26 +16,26 @@
     <div class="container text-center">
         <h1>Expense Tracker</h1>
         <div class="container text-start shadow p-3 mb-5 rounded">
-            <div class="cashflow-container">
-                <div class="fs-4" class="income-container">
-                    <h3>Income</h3>
-                    <span class="fs-2 text-success">$ <span class="fs-4" id="income">0</span></span>
-                </div>
-                <div class="expense-container">
-                    <h3>Expense</h3>
-                    <span class="fs-2 text-danger">$ <span class="fs-4" id="expense">0</span></span>
-                </div>
-                <div class="balance-container my-5">
+            <div id="cashflow-container">
+                <div id="balance-container" class="mb-5">
                     <h3 class="fs-2">Your Balance</h3>
                     <span class="fs-2">$ <span class="fs-4" id="balance">0</span></span>
                 </div>
+                <div id="income-container" class="fs-4">
+                    <h3>Income</h3>
+                    <span class="fs-2 text-success">$ <span class="fs-4" id="income">0</span></span>
+                </div>
+                <div id="expense-container">
+                    <h3>Expense</h3>
+                    <span class="fs-2 text-danger">$ <span class="fs-4" id="expense">0</span></span>
+                </div>
             </div>
-            <div class="transaction-container">
+            <div id="transaction-container">
                 <h3 class="text-secondary">Transaction History</h3>
                 <ul id="transaction">
                 </ul>
             </div>
-            <div class="form-container">
+            <div id="transaction-container">
                 <h3>Add new transaction</h3>
                 <label class="fs-4" for="description">Description</label>
                 <input class="bg-transparent w-100 p-1 fs-4 text-light rounded border-light my-2" id="description"
