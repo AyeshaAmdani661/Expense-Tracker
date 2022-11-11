@@ -24,7 +24,6 @@ li{
     border-radius: .3rem;
     font-size: 1.3rem;
     padding: .2rem 1rem;
-    border: #fff 1px solid;
     text-transform: capitalize;
 }
 .delete{
